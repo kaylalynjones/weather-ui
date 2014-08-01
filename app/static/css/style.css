@@ -1,0 +1,141 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900);
+
+body {
+  background-color: #eee;
+  margin: 0;
+  padding: 50px;
+  font-family: 'Lato', sans-serif;
+  background-image: url('/images/OTF_Blue_Sky_01.jpg');
+
+}
+.button {
+  border: 2px solid lightgray;
+  font-size: 25px;
+  color: darkslateblue;
+  height: 53px;
+  width: 100px;
+  padding-top: 3px;
+}
+/*form page*/
+div.form {
+  border: 2px solid rgba(245, 245, 245, 0.28);
+  width: 50%;
+  height: 200px;
+  margin: 0 auto;
+  background-color: rgba(238, 238, 238, 0.42);
+  padding: 60px;
+}
+h1 {
+  text-align: center;
+  font-weight: 800;
+  color: darkslateblue;
+}
+form {
+  text-align: center;
+}
+input[type=text] {
+  background-color: #fff;
+  padding: 10px;
+  font-size: 25px;
+  border: 2px solid lightgray;
+  outline: none;
+}
+
+
+/*weather page*/
+a:link {
+  text-decoration: none;
+  font-size: 25px;
+}
+a:hover {
+  border-bottom: 2px solid darkslateblue;
+  color: darkslateblue;
+}
+a:active {
+  border-bottom: 2px solid darkslateblue;
+  color: darkslateblue;
+}
+a:visited {
+  color: darkslateblue;
+}
+.wrapper {
+  border: 2px solid rgba(245, 245, 245, 0.28);
+  width: 50%;
+  margin: 0 auto;
+  background-color: rgba(238, 238, 238, 0.42);
+  
+}
+.wrapper > div {
+  padding: 60px;
+  position: relative;
+}
+.wrapper > div > h1 {
+  font-size: 2.5em;
+}
+.wrapper h3 {
+  font-size: 5em;
+  color: rgb(54, 45, 109);
+  display: inline-block;
+  margin-left: 37px;
+  margin-bottom: 10px;
+}
+.tempgauge {
+  width: 80px;
+  display: inline-block;
+  margin: 20px 100px 0;
+}
+.red {
+  background-image:
+    linear-gradient(
+      to top, 
+      blue, 
+      green,
+      yellow,
+      orange,
+      red
+    );
+
+}
+.orange {
+  background-image:
+    linear-gradient(
+      to top,
+      blue,
+      green,
+      yellow,
+      orange
+    );
+
+}
+.yellow {
+  background-image:
+    linear-gradient(
+      to top,
+      blue,
+      green,
+      yellow
+    );
+
+}
+.green {
+  background-image:
+    linear-gradient(
+      to top,
+      blue,
+      green
+    );
+
+}
+.blue {
+  background-image:
+    linear-gradient(
+      to top,
+      lightblue,
+      blue
+    );
+
+}
+a.startover {
+ margin-left: 50px;
+}
+

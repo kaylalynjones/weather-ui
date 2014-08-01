@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title What is the Weather?
+    link(rel='stylesheet' href='/css/style.css')
+
+  body
+    .form
+      h1 Find out the current weather:
+      form(method='post', action='/form')
+        input(type='text', name='zip', placeholder='Enter Zip Code', autofocus='true')
+        button.button Submit
