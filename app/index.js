@@ -29,9 +29,8 @@ app.post('/form', function(req,res){
     temp = temp.toFixed(0) + ' F';
   
     var t = parseInt(temp);
-console.log(t);
     var color;
-    if(t > 95){
+    if(t >= 95){
       color = 'red';
     } else if(t <= 94 && t >= 81) {
       color = 'orange';
